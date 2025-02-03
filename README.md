@@ -75,3 +75,5 @@ This stack combines security for **Docker Standalone/Swarm + Kubernetes**.
 
 - **Falco** for threat detection in Kubernetes.
 - **Wazuh** for log analysis and compliance.
+
+---
