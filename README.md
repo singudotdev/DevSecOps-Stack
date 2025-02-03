@@ -10,7 +10,7 @@ This stack focuses on **deploying and securing applications in Docker** without 
 | **Software Composition Analysis (SCA)**  | **OWASP Dependency-Check**             | Identifies vulnerabilities in third-party libraries.                                       |
 | **Dynamic Application Security Testing (DAST)** | **OWASP ZAP**                          | Automated web security scanning.                                                           |
 | **Container Security & Image Storage**   | **Harbor**                             | Secure container registry with built-in image vulnerability scanning using Trivy.         |
-| **API Security and Identity Management** | **Keycloak**                           | Secure authentication with OAuth, OpenID, and LDAP.                                        |
+| **API Security and Identity Management** | **Authentik**                           | Secure authentication with OAuth, OpenID, and LDAP.                                        |
 | **Infrastructure as Code (IaC) Security** | **Checkov**                            | Scanning Terraform and Ansible for cloud environments.                                     |
 | **Threat Monitoring and Detection**      | **Wazuh**                              | Open-source SIEM for logs, threats, and compliance.                                        |
 | **Incident Management and Response**     | **TheHive**                            | Platform for managing security incidents.                                                  |
@@ -48,7 +48,7 @@ This stack combines security for **Docker Standalone/Swarm + Kubernetes**.
 | **Software Composition Analysis (SCA)**  | **OWASP Dependency-Check**             | Identifies vulnerabilities in third-party libraries.                                       |
 | **Dynamic Application Security Testing (DAST)** | **OWASP ZAP**                          | Automated web security scanning.                                                           |
 | **Container Security & Image Storage**   | **Harbor + Falco**                     | **Harbor** for registry and Trivy-based scanning, **Falco** for runtime threat detection.  |
-| **API Security and Identity Management** | **Keycloak**                           | Secure authentication with OAuth, OpenID, and LDAP.                                        |
+| **API Security and Identity Management** | **Authentik**                           | Secure authentication with OAuth, OpenID, and LDAP.                                        |
 | **Infrastructure as Code (IaC) Security** | **Checkov**                            | Terraform, Kubernetes, and Ansible auditing.                                               |
 | **Threat Monitoring and Detection**      | **Wazuh + Falco**                      | **Wazuh** for logs and events, **Falco** for Kubernetes security.                          |
 | **Incident Management and Response**     | **TheHive**                            | Platform for managing security incidents.                                                  |
